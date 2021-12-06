@@ -11,7 +11,7 @@ var randomstring = require("randomstring");
 module.exports = function(app){
     app.get('/test' ,async(req,res)=>{
         try{
-            console.log(req.socket.remoteAddress);
+            console.log("host",req.headers.host);
             res.json({
                 status: 1,
                 data: [],
