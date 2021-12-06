@@ -7,7 +7,13 @@ import Footer from './views/Footer';
 function App() {
   const getData = async ()=>{
     try{
-      const res = await fetch("http://99plus.online:3004/test");
+      const res = await fetch("http://127.0.0.1:3004/test", {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+          "ipAddress" : "99plus.online",
+        },
+      });
       if( res.ok ){
         // console.log(  )
 
