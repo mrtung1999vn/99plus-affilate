@@ -5,9 +5,12 @@ import Body from './views/Body';
 import Footer from './views/Footer';
 
 function App() {
+  // var host = "http://127.0.0.1:3004/test";
+
+  var host = "http://99plus.online:3004/test";
   const getData = async ()=>{
     try{
-      const res = await fetch("http://127.0.0.1:3004/test", {
+      const res = await fetch(host, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
