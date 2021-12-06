@@ -1,0 +1,53 @@
+NganhHang 
+
+(id_nganhhang)
+	-Get
+	-Post
+	-Put
+	-delete
+
+LoaiHang
+
+	-Get
+	-Post
+	-Put
+	-delete
+
+MatHang
+
+	-Get
+	-Post
+	-Put
+	-delete
+
+
+KhachHang
+
+	-Get
+	-Post
+	-Put
+	-delete
+
+TaiKhoan   (TaiKhoanAdmin,TaiKhoanKhach)
+
+	-Get
+	-Post
+	-Put
+	-delete
+
+DonHang
+
+	-Get
+	-Post
+	-Put
+	-delete
+
+DonHangChiTiet
+
+	-Get
+	-Post
+	-Put
+	-delete
+
+
+2 ngày
